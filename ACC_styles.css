@@ -1,0 +1,128 @@
+/*
+	ACC Styles Sheet
+	
+	Author: Kent Crankfield
+	Date:   04/01/2021
+	
+	Filename:         ACC_styles.css
+    Supporting Files: none
+
+*/
+
+
+/* Font sources */
+
+@font-face {
+   font-family: 'NobileRegular';
+   src: url('nobile-webfont.eot');
+   src: local('☺'), 
+        url('nobile-webfont.woff') format('woff'), 
+        url('nobile-webfont.ttf') format('truetype'), 
+        url('nobile-webfont.svg#webfontsKo9tqe9') format('svg');
+}
+
+
+/* Body styles */
+
+body {
+	background-color: black;
+	font-family: NobileRegular, Verdana, Geneva, sans-serif;
+	line-height: 1.4em;
+	color: white;
+}
+
+/* Heading styles */
+
+header h1 {
+	position: 0px auto; 
+}
+
+section h1 {
+	background-color: rgb(65,105,225);
+	color: white;
+	font-size: 1.7em;
+	letter-spacing: 0.4em;
+	line-height: 1.8em;
+	text-indent: 1em;
+}
+
+h2 {
+	background-color: rgb(0, 165, 0);
+	color: white;
+	color: rgba(255, 255, 255, 0.8);
+	letter-spacing: 0.4em;
+	line-height: 1.8em;
+	text-indent: 1em;
+}
+
+/* Navigation list styles */
+
+nav  ul {
+	background-color: rgb(65,105,225);
+	line-height: 3.5em;
+	list-style-type: none;
+	padding-left: 0.5em;
+}
+
+nav ul li:hover {
+	background-color: rgb(0,0,205);
+}
+
+nav ul li:first-of-type {
+	text-transform: uppercase;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+/* Section styles */
+
+section a {
+	color: rgb(0,191,255);
+}
+
+section p.closing {
+	color: red;
+	text-align: right;
+	font-style: italic;
+}
+
+aside {
+width: 30%; 
+padding: 0px;
+margin: 0px;
+float: right;
+}
+
+/* Footer styles */
+
+footer address {
+	background-color: rgb(65,105,225);
+	color: white;
+	font: normal small-caps 1.0em/2em 'Times New Roman', Times, serif;
+	text-align: center;
+}
+
+footer address a {
+	color: rgb(255,215,0);
+}
+
+/* Table styles */
+
+th {
+	background-color: rgb(65,105,225);
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+
+

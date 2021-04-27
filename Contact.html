@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+   <!--
+      
+      Contact Us Page
+      Author: Kent Crankfield
+      Date:   04/01/2021
+
+       Filename:         Contact.html
+       Supporting files: ACC_Bkgnd.jpg, CP.jpg, BF5.mp3, formsubmit.js, modernizr-1.5.js, ACC_layout.css, ACC_styles.css
+      					
+   -->
+   
+      <meta charset="UTF-8" />
+      <title>ACC Aeronautics</title>
+      <script src="modernizr-1.5.js"></script>
+       <script src="formsubmit.js"></script>
+      
+	<!-- ACC styles linked -->
+	
+      <link href="ACC_layout.css" rel="stylesheet" type="text/css" /> 
+      <Link href="ACC_styles.css" rel="stylesheet" type="text/css" />
+      <Link href="ACC_contact.css" rel="stylesheet" type="text/css" />
+
+	<!-- page text style -->
+	
+	  <style type="text/css">   
+		section > p:first-of-type:first-line {    
+	  	text-transform: uppercase;  
+		}   
+	   	section > p:first-of-type:first-letter {    
+	     font-size: 250%;     
+	     font-family: 'Times New Roman', Times, serif;  
+		}
+	  </style>	    
+   </head>
+    <body>
+   
+   <!-- ACC logo -->
+   
+      <header>
+         <h1>
+            <p><img src="ACC_Bkgnd.jpg" alt="ACC AERONAUTICS"
+              	 width="800" height="250" style="vertical-align:middle">
+              	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+         </h1>
+      </header>
+   
+   <!-- navigation list -->
+   
+      <nav>   
+         <ul>
+            <li><a href="ACC_Home.html">Home</a></li>
+            <li><a href="CommAcft.html">Commercial Aircraft</a></li>
+            <li><a href="BizAcft.html">Business Aircraft</a></li>
+            <li><a href="SpaceTech.html">Space Technology</a></li>
+            <li><a href="AdvTech.html">Advanced Technology</a></li>
+            <li><a href="DefTech.html">Defensive Technologies</a></li>
+            <li><a href="Contact.html">Contact us</a></li>
+         </ul>
+      </nav>
+
+      <section>
+      
+       	 <header>
+            <h1>Contact us</h1>
+         </header>
+         
+          	<p>
+          		From all of us at ACC Aeronautics, thank you for visiting! We sincerely hope to see you soon! 
+          	</p>
+          	
+          	<!-- Group photo -->
+	
+			<img src="CP.jpg" alt="group photo"
+         	  width="585" height="500" /> 
+          	
+    <!-- Contact form -->
+         
+	 <div class="container">
+  		<form action="action_page.php">
+
+    		<label for="name">Name</label>
+    			<input type="text" id="name" name="name" placeholder="Your name.." required="required" >
+
+    		<label for="email">Email</label>
+    			<input type="text" id="email" name="email" placeholder="johnsmith@gmail.com" required="required" >
+
+    		<label for="subject">Subject</label>
+    			<input type="text" id="subject" name="subject" placeholder="Which department?" required="required" >
+
+    		<label for="body">Body</label>
+    			<textarea id="body" name="body" placeholder="What can we assist you with?" style="height:200px" required="required" ></textarea>
+
+    		<input type="submit" value="Submit">
+				
+  		</form>
+	</div>
+				 
+					
+	<!-- Contact page audio -->
+     
+        <audio controls autoplay>
+  		 	<source src="BF5.mp3" type="audio/mpeg">
+		</audio>
+      </section>
+      
+    <!-- Footer with email -->
+    
+	 <footer>
+  		<address>
+            developing, assembling and delivering cutting-edge aircraft since 1939 &#9826;
+           	ACC aeronautics &#9826;
+            <a href="mailto:ACCcontactus@mail.com?Subject=ACC%20inquiry" target="_top">Contact</a>
+         </address>
+	 </footer>
+  
+   </body>
+
+</html>
